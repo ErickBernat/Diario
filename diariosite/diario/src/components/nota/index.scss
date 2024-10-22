@@ -1,0 +1,38 @@
+.nota{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    margin: 10px 0;
+
+    background-color: #0d0713;
+    color: white;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 10px;
+    }
+
+    
+    button{
+        width: 100px;
+        height: 30px;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: #EEEEEE;
+        color:#704e8f;
+        margin: 30px;
+    }
+    button:hover{
+        background-color: #704e8f;
+        color: white;
+    }
+    .botoes-nota{
+        display: flex;
+        flex-direction: row;
+        color:black;
+    }
+}
